@@ -1,5 +1,6 @@
 class App {
     drinks;
+    stage;
 }
 
 class Drink {
@@ -54,9 +55,22 @@ const convertData = () => {
     }
 }
 
+const createScenes = () => {
+    app.stage = new Stage();
+    app.stage.createScene("game", "#gamePanel");
+    app.stage.createScene("help", "#helpPanel", "#btnHelp");
+    app.stage.setDefault("game");
+}
+
+const populateDrinksPanel = () => {
+
+}
+
 const init = () => {
     app = new App();
+    createScenes();
     convertData();
+    populateDrinksPanel();
 }
 
 let app;
