@@ -6,6 +6,8 @@ class App {
 class Drink {
     name;
     varieties;
+    colour1;
+    colour2;
 
     formatCard = () => {
         

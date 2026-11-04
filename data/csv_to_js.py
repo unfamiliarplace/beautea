@@ -6,13 +6,16 @@ PATH_DATA = Path(__file__).parent.resolve()
 PATH_IN = PATH_DATA / 'main.csv'
 PATH_OUT = PATH_DATA / 'drinkData.js'
 
+
+
 KEYS = [
     'name', 'temp', 'size',
     'flavourTea1', 'flavourTea2', 'flavourOther',
     'baseTea', 'baseMilk', 'baseWater',
     'creamer', 'decoration',
     'sugar1', 'sugar2',
-    'ice'
+    'ice',
+    'colour1','colour2'
     
     # 'Type', 'Temp', 'Size',
     # 'Flavour - Tea 1', 'Flavour - Tea 2', 'Flavour - Other',
@@ -20,6 +23,7 @@ KEYS = [
     # 'Creamer', 'Decoration',
     # 'Sugar - 1', 'Sugar - 2',
     # 'Ice'
+    # 'Colour - 1', 'Colour - 2'
     
 ]
 

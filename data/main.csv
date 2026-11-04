@@ -1,124 +1,124 @@
-﻿Type;Temp;Size;Flavour - Tea 1;Flavour - Tea 2;Flavour - Other;Base - tea;Base - milk;Base - water;Creamer;Decoration;Sugar - 1;Sugar - 2;Ice
-Rose / Lavender Latte;Hot;Small;7 g;;;8 oz;3 oz steamed;;;;0,8;;
-Rose / Lavender Latte;Hot;Large;7 g;;;10 oz;4 oz teamed;;;;1,25;;
-Rose / Lavender Latte;Cold;Small;7 g;;;8 oz;;;3;;1,5;;1 flat
-Rose / Lavender Latte;Cold;Large;7 g;;;10 oz;;;4;;2;;1 full
-Normal / Caramel / Vanilla Rooibos Latte;Hot;Small;8 g;;;8 oz;3 oz steamed;;;;0,8 cane / caramel / vanilla;;
-Normal / Caramel / Vanilla Rooibos Latte;Hot;Large;8 g;;;10 oz;4 oz steamed;;;;1,25 cane / caramel / vanilla;;
-Normal / Caramel / Vanilla Rooibos Latte;Cold;Small;8 g;;;8 oz;;;3;;1,5 cane / caramel / vanilla;;1 flat
-Normal / Caramel / Vanilla Rooibos Latte;Cold;Large;8 g;;;10 oz;;;4;;2 cane / caramel / vanilla;;1 full
-Candy Cane Peppermint Latte;Hot;Small;7 g;;;8 oz;3 oz steamed;;;;0,8 vani;;
-Candy Cane Peppermint Latte;Hot;Large;7 g;;;10 oz;4 oz steamed;;;;1,25 vani;;
-Candy Cane Peppermint Latte;Cold;Small;7 g;;;7 oz;2 oz cold;;;;1,5 vani;;1 flat
-Candy Cane Peppermint Latte;Cold;Large;7 g;;;8 oz;3 oz cold;;;;2 vani;;1 full
-Matcha Chocolate;Hot;Small;1 sp;;,8 sp choc;;10 oz;;;;0,5;;
-Matcha Chocolate;Hot;Large;1,5 sp;;1 sp choc;;12 oz;;;;1;;
-Matcha Chocolate;Cold;Small;1 sp;;,8 sp choc;;6 oz;;;;1 (bld 1,5);;1 flat
-Matcha Chocolate;Cold;Large;1,5 sp;;1 sp choc;;8 oz;;;;1,5 (bld 2);;1 full
-Matcha Cafe Au Lait;Cold;Small;1 sp;;,5 espresso;;;1 oz hot;;;1;;70% cup
-Matcha Cafe Au Lait;Cold;Large;1,5 sp;;1 espresso;;;2 oz hot;;;1,5;;70% cup
-Matcha Lemonade;Cold;Small;1 sp;;;;;8 oz hot;;;0,6 lemon;1 sugar;1 flat
-Matcha Lemonade;Cold;Large;1,5 sp;;;;;10 oz hot;;;1 lemon;1,5 sugar;1 full
-Lavender Lemonade;Cold;Small;7 g;;;8 oz;;;;;0,6 lemon;1 sugar;1 flat
-Lavender Lemonade;Cold;Large;7 g;;;10 oz;;;;;1 lemon;1,5 sugar;1 full
-Honey Hibiscus;Hot;Small;4 g;;;12 oz;;;;;2;;
-Honey Hibiscus;Hot;Large;4 g;;;16 oz;;;;;2,5;;
-Honey Hibiscus;Cold;Small;8 g;;;8 oz;;;;;4;;1 flat
-Honey Hibiscus;Cold;Large;8 g;;;10 oz;;;;;5;;1 full
-Honey Lemonade;Hot;Small;;;;;;12 oz hot;;;0,6 lemon;2 honey;
-Honey Lemonade;Hot;Large;;;;;;16 oz hot;;;1 lemon;3 honey;
-Honey Lemonade;Cold;Small;;;;;;8 oz hot;;;0,6 lemon;4 honey;1 flat
-Honey Lemonade;Cold;Large;;;;;;10 oz hot;;;1 lemon;5 honey;1 full
-Ginger Black Tea Latte;Hot;Small;6 oz black;7,5 oz ginger;;8 oz;3 oz steamed;;;;0,3 black;0,3 cane;
-Ginger Black Tea Latte;Hot;Large;6 oz black;7,5 oz ginger;;10 oz;4 oz steamed;;;;0,6 black;0,5 cane;
-Ginger Black Tea Latte;Cold;Small;6 oz black;7,5 oz ginger;;8 oz;;;3;;0,6 black;;1 flat
-Ginger Black Tea Latte;Cold;Large;6 oz black;7,5 oz ginger;;10 oz;;;4;;0,8 black;;1 full
-Strawberry / Raspberry BT Latte;Hot;Small;12 g;;;8 oz;3 oz steamed;;;;0,5;;
-Strawberry / Raspberry BT Latte;Hot;Large;12 g;;;10 oz;4 oz steamed;;;;1,25;;
-Strawberry / Raspberry BT Latte;Cold;Small;12 g;;;8 oz;;;3;;1,5;;1 flat
-Strawberry / Raspberry BT Latte;Cold;Large;12 g;;;10 oz;;;4;;2;;1 full
-Butterfly Lemonade;Cold;Small;3,8 g;;;;;1 oz hot;;;0,6 lemon;0,3 sugar;80% cup
-Butterfly Lemonade;Cold;Large;3,8 g;;;;;2 oz hot;;;0,9 lemon;0,6 sugar;80% cup
-Oreo Banana Smoothie;Cold;Small;;;100g banana;;5 oz;;;1,5 oreo;0,25;;0,5 scoop
-Oreo Banana Smoothie;Cold;Large;;;150g banana;;7 oz;;;2 oreo;0,5;;1 flat
-Only Banana Smoothie;Cold;Small;;;100g banana;;6 oz;;;;1 vanilla;;0,5 scoop
-Only Banana Smoothie;Cold;Large;;;150g banana;;8 oz;;;;1,5 vanilla;;1 flat
-Banana Strawberry;Cold;Small;;;100 banana + 2 strawberry;;5 oz;;;;0,5;;0,5 scoop
-Banana Strawberry;Cold;Large;;;150 banana + 3 strawberry;;7 oz;;;;1;;0,75 scoop
-Very Berry Smoothie;Cold;Small;;;1 flat scoop berry + 2 strawberry;;5 oz;2,5 oz;;;1,25;;1/3 scoop
-Very Berry Smoothie;Cold;Large;;;1 full scoop berry + 3 strawberry;;7 oz;3,5 oz;;;1,75;;3/4 scoop
-Watermelon Juice;Cold;Small;;;sm cup watermelon;;;2 oz;;;0,25 (bld 0,125);;3/4 scoop
-Watermelon Juice;Cold;Large;;;lg cup watermelon;;;4 oz;;;0,5 (bld 0,25);;1 flat
-Strawberry Smoothie;Cold;Small;;;4 strawberry;;5 oz cold;3,5 oz;;;1,25;;3/4 scoop
-Strawberry Smoothie;Cold;Large;;;6 strawberry;;7 oz cold;3,5 oz;;;1,75;;1 flat
-Avocado Smoothie;Cold;Small;;;55 g avocado;;2 oz;4 oz hot;;;0,8 caramel;0,8 cane;3/4 scoop
-Avocado Smoothie;Cold;Large;;;90 g avocado;;3 oz;5 oz hot;;;1 caramel;1 cane;1 flat
-Papaya Smoothie;Cold;Small;;;150 g papaya;;1 oz;4 oz hot;;;1,25;;1 flat
-Papaya Smoothie;Cold;Large;;;175 g papaya;;2 oz;5 oz hot;;;1,5;;1 full
-Fresh Mango Smoothie;Cold;Small;;;125 g mango;;;;;;;;3/4 scoop
-Fresh Mango Smoothie;Cold;Large;;;125 g mango;;;;;;;;1 flat
-Only Oreo Smoothie;Cold;Small;;;3 pc oreo;;6 oz;;;;1,5 vanilla;;3/4 scoop
-Only Oreo Smoothie;Cold;Large;;;4 pc oreo;;8 oz;;;;2 vanilla;;1 flat
-Osmanthus Oolong;Cold;Large;6 oz oolong;7 oz osmanthus;;10 oz;;;;;1,7;;
-Matcha Latte;Hot;Small;1 sp;;;;2 oz;;;;0,9;;
-Matcha Latte;Hot;Large;1,5 sp;;;;3 oz;;;;1,4;;
-Matcha Latte;Cold;Small;1 sp;;;;6 oz;or 6 oz hot ?;3;;1,25;;1 flat
-Matcha Latte;Cold;Large;1,5 sp;;;;8 oz;or 8 oz hot ?;4;;1,75;;1 full
-London Fog;Hot;Small;10 g;;;8 oz;3 oz;;;;0,8 vanilla;;
-London Fog;Hot;Large;10 g;;;10 oz;4 oz;;;;1,25 vanilla;;
-London Fog;Cold;Small;10 g;;;8 oz;;;3;;1,5 vanilla;;1 flat
-London Fog;Cold;Large;10 g;;;10 oz;;;4;;2 vanilla;;1 full
-Chocolate Milk Tea;Hot;Small;13,5 g;;1,5 dark choc;8 oz;3 oz;;;;0,8;;
-Chocolate Milk Tea;Hot;Large;13,5 g;;2 dark choc;11 oz;5 oz;;;;1;;
-Chocolate Milk Tea;Cold;Small;13,5 g;;1,5 dark choc;6 oz;2 oz;;;;1,5;;1 flat
-Chocolate Milk Tea;Cold;Large;13,5 g;;2 dark choc;7 oz;3 oz;;;;1,8;;1 full
-Prana Chai Latte;Hot;Small;13,5 g;;;;6 oz;6 oz hot;;;2 honey;1/8 salt;
-Prana Chai Latte;Hot;Large;13,5 g;;;;8 oz;8 oz hot;;;2,5 honey;2/8 salt;
-Prana Chai Latte;Cold;Small;13,5 g;;;;4 oz ;4 oz hot;;;3 honey;1/8 salt;1 flat
-Prana Chai Latte;Cold;Large;13,5 g;;;;5 oz;5 hot;;;3,5 honey;2/8 salt;1 full
-Misto Chai;Hot;Small;13,5 g;;;5 oz;5 oz steamed;;;;0,8;;
-Misto Chai;Hot;Large;13,5 g;;;7 oz;7 oz steamed;;;;1,25;;
-Misto Chai;Cold;Small;13,5 g;;;4,5 oz;4,5 oz cold;;;;1,5;;1 flat
-Misto Chai;Cold;Large;13,5 g;;;5,5 oz;5,5 oz cold;;;;2;;1 full
-Dirty Chai;Hot;Small;13,5 g;;1 espresso;5 oz;5 oz steamed;;;;0,8;;
-Dirty Chai;Hot;Large;13,5 g;;1 espresso;7 oz;7 oz steamed;;;;1,25;;
-Dirty Chai;Cold;Small;13,5 g;;1 espresso;4,5 oz;4,5 oz cold;;;;1,5;;1 flat
-Dirty Chai;Cold;Large;13,5 g;;1 espresso;5,5 oz;5,5 oz cold;;;;2;;1 full
-Genmaichi / Rose / Lavender / Hojicha / Original MT;Hot;Small;See tea jar;;;12 oz;;;3;;1;;
-Genmaichi / Rose / Lavender / Hojicha / Original MT;Hot;Large;See tea jar;;;16 oz;;;4;;1,3;;
-Genmaichi / Rose / Lavender / Hojicha / Original MT;Cold;Small;See tea jar;;;8 oz;;;3;;1,5;;1 flat
-Genmaichi / Rose / Lavender / Hojicha / Original MT;Cold;Large;See tea jar;;;10 oz;;;4;;2;;1 full
-Black Sugar MT;Hot;Small;13,5 g;;;12 oz;;;3;;0,5 black;0,2 cane;
-Black Sugar MT;Hot;Large;13,5 g;;;16 oz;;;4;;0,6 black;0,3 cane;
-Black Sugar MT;Cold;Small;13,5 g;;;8 oz;;;3;;0,6 black;0,5 cane;1 flat
-Black Sugar MT;Cold;Large;13,5 g;;;10 oz;;;4;;0,7 black;0,7 cane;1 full
-Oolong / Iron Budda MT;Hot;Small;13,5 g;;;12 oz;;;2;;1;;
-Oolong / Iron Budda MT;Hot;Large;13,5 g;;;16 oz;;;3;;1,3;;
-Oolong / Iron Budda MT;Cold;Small;13,5 g;;;8 oz;;;2;;1,5;;1 flat
-Oolong / Iron Budda MT;Cold;Large;13,5 g;;;10 oz;;;3;;2;;1 full
-House Special MT;Hot;Small;13,5 g;;;12 oz;;;3;;3 honey;;
-House Special MT;Hot;Large;13,5 g;;;16 oz;;;4;;4 honey;;
-House Special MT;Cold;Small;13,5 g;;;8 oz;;;3;;4 honey;;1 flat
-House Special MT;Cold;Large;13,5 g;;;10 oz;;;4;;5 honey;;1 full
-Black Sugar Fresh Milk;Hot;Small;;;;;fill steamed;;;;0,5 black;0,2 cane;0,5 scoop
-Black Sugar Fresh Milk;Hot;Large;;;;;fill cold;;;;0,8 black;0,5 cane;0,5 scoop
-Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Hot;Small;;;;;;11 oz hot;Check lid;;Check lid;;1 ice
-Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Hot;Large;;;;;;15 oz hot;Check lid;;Check lid;;2 ice
-Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Cold;Small;;;;;;6 oz hot;Check lid;;Check lid;;1 flat
-Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Cold;Large;;;;;;8 oz hot;Check lid;;Check lid;;1 full
-Ferrero Rocher;Blended;Small;;;3 rocher + 1 milk choc + 8 circle choc syrup;;3 oz;;;1 rocher;1,25;;1 flat
-Ferrero Rocher;Blended;Large;;;3 rocher + 1 milk choc + 10 circle choc syrup;;4 oz;;;1 rocher;1,5;;1 full
-Orange Green Tea;Cold;Large;13,5 g;;5 orange peel;10 oz;;;;2 orange slices;1 or 1,5 sugar;0 or 0,5 lemon;1 full
-Signature Green Tea;Cold;Large;13,5 g;;2 orange peel;10 oz;;;;2 orange slices;0,2 pass 0,5 ??;;1 full
-Rose Black Tea;Hot;Small;2,5 g black;2,5 g rose;;12 oz;;;;;0,5;;
-Rose Black Tea;Hot;Large;3,5 g black;3,5 g rose;;16 oz;;;;;1;;
-Rose Black Tea;Cold;Small;4 g black;4 g rose;;8 oz;;;;;1,5;;1 flat
-Rose Black Tea;Cold;Large;5 g black;5 g rose;;10 oz;;;;;2;;1 full
-Black Tea Float;Cold;Small;10 g;;3 ice cream;8 oz;;;;;3 honey;;1 flat
-Black Tea Float;Cold;Large;10 g;;4 ice cream;10 oz;;;;;4 honey;;1 full
-Matcha Float;Cold;Small;0,8 scoop;;3 ice cream;;;8 oz hot;;;1,5;;1 flat
-Matcha Float;Cold;Large;1 scoop;;4 ice cream;;;10 oz hot;;;2;;1 full
-HK Lemon Black Tea;Hot;Small;13,5 g;;1 lemon;12 oz;;;;;0,5 cane;1 honey;
-HK Lemon Black Tea;Hot;Large;13,5 g;;1,5 lemon;16 oz;;;;;0,5 cane;1,5 honey;
-HK Lemon Black Tea;Cold;Small;13,5 g;;1 lemon;6 oz;;2 oz;;;0,5 cane;3 honey;1 flat
-HK Lemon Black Tea;Cold;Large;13,5 g;;1,5 lemon;8 oz;;2 oz;;;0,8 cane;4 honey;1 full
+﻿Type;Temp;Size;Flavour - Tea 1;Flavour - Tea 2;Flavour - Other;Base - tea;Base - milk;Base - water;Creamer;Decoration;Sugar - 1;Sugar - 2;Ice;Colour - 1;Colour - 2
+Rose / Lavender Latte;Hot;Small;7 g;;;8 oz;3 oz steamed;;;;0,8;;;cd7f7f;cb99d1
+Rose / Lavender Latte;Hot;Large;7 g;;;10 oz;4 oz teamed;;;;1,25;;;cd7f7f;cb99d1
+Rose / Lavender Latte;Cold;Small;7 g;;;8 oz;;;3;;1,5;;1 flat;cd7f7f;cb99d1
+Rose / Lavender Latte;Cold;Large;7 g;;;10 oz;;;4;;2;;1 full;cd7f7f;cb99d1
+Normal / Caramel / Vanilla Rooibos Latte;Hot;Small;8 g;;;8 oz;3 oz steamed;;;;0,8 cane / caramel / vanilla;;;d2a96f;
+Normal / Caramel / Vanilla Rooibos Latte;Hot;Large;8 g;;;10 oz;4 oz steamed;;;;1,25 cane / caramel / vanilla;;;d2a96f;
+Normal / Caramel / Vanilla Rooibos Latte;Cold;Small;8 g;;;8 oz;;;3;;1,5 cane / caramel / vanilla;;1 flat;d2a96f;
+Normal / Caramel / Vanilla Rooibos Latte;Cold;Large;8 g;;;10 oz;;;4;;2 cane / caramel / vanilla;;1 full;d2a96f;
+Candy Cane Peppermint Latte;Hot;Small;7 g;;;8 oz;3 oz steamed;;;;0,8 vani;;;e41f1f;26d10f
+Candy Cane Peppermint Latte;Hot;Large;7 g;;;10 oz;4 oz steamed;;;;1,25 vani;;;e41f1f;26d10f
+Candy Cane Peppermint Latte;Cold;Small;7 g;;;7 oz;2 oz cold;;;;1,5 vani;;1 flat;e41f1f;26d10f
+Candy Cane Peppermint Latte;Cold;Large;7 g;;;8 oz;3 oz cold;;;;2 vani;;1 full;e41f1f;26d10f
+Matcha Chocolate;Hot;Small;1 sp;;,8 sp choc;;10 oz;;;;0,5;;;1a871a;2d190d
+Matcha Chocolate;Hot;Large;1,5 sp;;1 sp choc;;12 oz;;;;1;;;1a871a;2d190d
+Matcha Chocolate;Cold;Small;1 sp;;,8 sp choc;;6 oz;;;;1 (bld 1,5);;1 flat;1a871a;2d190d
+Matcha Chocolate;Cold;Large;1,5 sp;;1 sp choc;;8 oz;;;;1,5 (bld 2);;1 full;1a871a;2d190d
+Matcha Cafe Au Lait;Cold;Small;1 sp;;,5 espresso;;;1 oz hot;;;1;;70% cup;1a871a;e0d0b7
+Matcha Cafe Au Lait;Cold;Large;1,5 sp;;1 espresso;;;2 oz hot;;;1,5;;70% cup;1a871a;e0d0b7
+Matcha Lemonade;Cold;Small;1 sp;;;;;8 oz hot;;;0,6 lemon;1 sugar;1 flat;1a871a;cabe79
+Matcha Lemonade;Cold;Large;1,5 sp;;;;;10 oz hot;;;1 lemon;1,5 sugar;1 full;1a871a;cabe79
+Lavender Lemonade;Cold;Small;7 g;;;8 oz;;;;;0,6 lemon;1 sugar;1 flat;cb99d1;cabe79
+Lavender Lemonade;Cold;Large;7 g;;;10 oz;;;;;1 lemon;1,5 sugar;1 full;cb99d1;cabe79
+Honey Hibiscus;Hot;Small;4 g;;;12 oz;;;;;2;;;c7ad45;e88a88
+Honey Hibiscus;Hot;Large;4 g;;;16 oz;;;;;2,5;;;c7ad45;e88a88
+Honey Hibiscus;Cold;Small;8 g;;;8 oz;;;;;4;;1 flat;c7ad45;e88a88
+Honey Hibiscus;Cold;Large;8 g;;;10 oz;;;;;5;;1 full;c7ad45;e88a88
+Honey Lemonade;Hot;Small;;;;;;12 oz hot;;;0,6 lemon;2 honey;;c7ad45;cabe79
+Honey Lemonade;Hot;Large;;;;;;16 oz hot;;;1 lemon;3 honey;;c7ad45;cabe79
+Honey Lemonade;Cold;Small;;;;;;8 oz hot;;;0,6 lemon;4 honey;1 flat;c7ad45;cabe79
+Honey Lemonade;Cold;Large;;;;;;10 oz hot;;;1 lemon;5 honey;1 full;c7ad45;cabe79
+Ginger Black Tea Latte;Hot;Small;6 oz black;7,5 oz ginger;;8 oz;3 oz steamed;;;;0,3 black;0,3 cane;;b6ac6b;31601
+Ginger Black Tea Latte;Hot;Large;6 oz black;7,5 oz ginger;;10 oz;4 oz steamed;;;;0,6 black;0,5 cane;;b6ac6b;31601
+Ginger Black Tea Latte;Cold;Small;6 oz black;7,5 oz ginger;;8 oz;;;3;;0,6 black;;1 flat;b6ac6b;31601
+Ginger Black Tea Latte;Cold;Large;6 oz black;7,5 oz ginger;;10 oz;;;4;;0,8 black;;1 full;b6ac6b;31601
+Strawberry / Raspberry BT Latte;Hot;Small;12 g;;;8 oz;3 oz steamed;;;;0,5;;;e81111;31601
+Strawberry / Raspberry BT Latte;Hot;Large;12 g;;;10 oz;4 oz steamed;;;;1,25;;;e81111;31601
+Strawberry / Raspberry BT Latte;Cold;Small;12 g;;;8 oz;;;3;;1,5;;1 flat;e81111;31601
+Strawberry / Raspberry BT Latte;Cold;Large;12 g;;;10 oz;;;4;;2;;1 full;e81111;31601
+Butterfly Lemonade;Cold;Small;3,8 g;;;;;1 oz hot;;;0,6 lemon;0,3 sugar;80% cup;cd12a7;cabe79
+Butterfly Lemonade;Cold;Large;3,8 g;;;;;2 oz hot;;;0,9 lemon;0,6 sugar;80% cup;cd12a7;cabe79
+Oreo Banana Smoothie;Cold;Small;;;100g banana;;5 oz;;;1,5 oreo;0,25;;0,5 scoop;0f0503;ffd230
+Oreo Banana Smoothie;Cold;Large;;;150g banana;;7 oz;;;2 oreo;0,5;;1 flat;0f0503;ffd230
+Only Banana Smoothie;Cold;Small;;;100g banana;;6 oz;;;;1 vanilla;;0,5 scoop;ffd230;
+Only Banana Smoothie;Cold;Large;;;150g banana;;8 oz;;;;1,5 vanilla;;1 flat;ffd230;
+Banana Strawberry;Cold;Small;;;100 banana + 2 strawberry;;5 oz;;;;0,5;;0,5 scoop;ffd230;e81111
+Banana Strawberry;Cold;Large;;;150 banana + 3 strawberry;;7 oz;;;;1;;0,75 scoop;ffd230;e81111
+Very Berry Smoothie;Cold;Small;;;1 flat scoop berry + 2 strawberry;;5 oz;2,5 oz;;;1,25;;1/3 scoop;e81111;e81111
+Very Berry Smoothie;Cold;Large;;;1 full scoop berry + 3 strawberry;;7 oz;3,5 oz;;;1,75;;3/4 scoop;e81111;e81111
+Watermelon Juice;Cold;Small;;;sm cup watermelon;;;2 oz;;;0,25 (bld 0,125);;3/4 scoop;e34747;
+Watermelon Juice;Cold;Large;;;lg cup watermelon;;;4 oz;;;0,5 (bld 0,25);;1 flat;e34747;
+Strawberry Smoothie;Cold;Small;;;4 strawberry;;5 oz cold;3,5 oz;;;1,25;;3/4 scoop;e81111;
+Strawberry Smoothie;Cold;Large;;;6 strawberry;;7 oz cold;3,5 oz;;;1,75;;1 flat;e81111;
+Avocado Smoothie;Cold;Small;;;55 g avocado;;2 oz;4 oz hot;;;0,8 caramel;0,8 cane;3/4 scoop;60aa3e;
+Avocado Smoothie;Cold;Large;;;90 g avocado;;3 oz;5 oz hot;;;1 caramel;1 cane;1 flat;60aa3e;
+Papaya Smoothie;Cold;Small;;;150 g papaya;;1 oz;4 oz hot;;;1,25;;1 flat;d5511c;
+Papaya Smoothie;Cold;Large;;;175 g papaya;;2 oz;5 oz hot;;;1,5;;1 full;d5511c;
+Fresh Mango Smoothie;Cold;Small;;;125 g mango;;;;;;;;3/4 scoop;ffbf28;
+Fresh Mango Smoothie;Cold;Large;;;125 g mango;;;;;;;;1 flat;ffbf28;
+Only Oreo Smoothie;Cold;Small;;;3 pc oreo;;6 oz;;;;1,5 vanilla;;3/4 scoop;0f0503;
+Only Oreo Smoothie;Cold;Large;;;4 pc oreo;;8 oz;;;;2 vanilla;;1 flat;0f0503;
+Osmanthus Oolong;Cold;Large;6 oz oolong;7 oz osmanthus;;10 oz;;;;;1,7;;;f1d696;353b22
+Matcha Latte;Hot;Small;1 sp;;;;2 oz;;;;0,9;;;1a871a;c8a068
+Matcha Latte;Hot;Large;1,5 sp;;;;3 oz;;;;1,4;;;1a871a;c8a068
+Matcha Latte;Cold;Small;1 sp;;;;6 oz;or 6 oz hot ?;3;;1,25;;1 flat;1a871a;c8a068
+Matcha Latte;Cold;Large;1,5 sp;;;;8 oz;or 8 oz hot ?;4;;1,75;;1 full;1a871a;c8a068
+London Fog;Hot;Small;10 g;;;8 oz;3 oz;;;;0,8 vanilla;;;31601;e0d0b7
+London Fog;Hot;Large;10 g;;;10 oz;4 oz;;;;1,25 vanilla;;;31601;e0d0b7
+London Fog;Cold;Small;10 g;;;8 oz;;;3;;1,5 vanilla;;1 flat;31601;e0d0b7
+London Fog;Cold;Large;10 g;;;10 oz;;;4;;2 vanilla;;1 full;31601;e0d0b7
+Chocolate Milk Tea;Hot;Small;13,5 g;;1,5 dark choc;8 oz;3 oz;;;;0,8;;;2d190d;f4ede3
+Chocolate Milk Tea;Hot;Large;13,5 g;;2 dark choc;11 oz;5 oz;;;;1;;;2d190d;f4ede3
+Chocolate Milk Tea;Cold;Small;13,5 g;;1,5 dark choc;6 oz;2 oz;;;;1,5;;1 flat;2d190d;f4ede3
+Chocolate Milk Tea;Cold;Large;13,5 g;;2 dark choc;7 oz;3 oz;;;;1,8;;1 full;2d190d;f4ede3
+Prana Chai Latte;Hot;Small;13,5 g;;;;6 oz;6 oz hot;;;2 honey;1/8 salt;;c38a58;c8a068
+Prana Chai Latte;Hot;Large;13,5 g;;;;8 oz;8 oz hot;;;2,5 honey;2/8 salt;;c38a58;c8a068
+Prana Chai Latte;Cold;Small;13,5 g;;;;4 oz ;4 oz hot;;;3 honey;1/8 salt;1 flat;c38a58;c8a068
+Prana Chai Latte;Cold;Large;13,5 g;;;;5 oz;5 hot;;;3,5 honey;2/8 salt;1 full;c38a58;c8a068
+Misto Chai;Hot;Small;13,5 g;;;5 oz;5 oz steamed;;;;0,8;;;c38a58;4e2706
+Misto Chai;Hot;Large;13,5 g;;;7 oz;7 oz steamed;;;;1,25;;;c38a58;4e2706
+Misto Chai;Cold;Small;13,5 g;;;4,5 oz;4,5 oz cold;;;;1,5;;1 flat;c38a58;4e2706
+Misto Chai;Cold;Large;13,5 g;;;5,5 oz;5,5 oz cold;;;;2;;1 full;c38a58;4e2706
+Dirty Chai;Hot;Small;13,5 g;;1 espresso;5 oz;5 oz steamed;;;;0,8;;;c38a58;201002
+Dirty Chai;Hot;Large;13,5 g;;1 espresso;7 oz;7 oz steamed;;;;1,25;;;c38a58;201002
+Dirty Chai;Cold;Small;13,5 g;;1 espresso;4,5 oz;4,5 oz cold;;;;1,5;;1 flat;c38a58;201002
+Dirty Chai;Cold;Large;13,5 g;;1 espresso;5,5 oz;5,5 oz cold;;;;2;;1 full;c38a58;201002
+Genmaichi / Rose / Lavender / Hojicha / Original MT;Hot;Small;See tea jar;;;12 oz;;;3;;1;;;f4ede3;f4ede3
+Genmaichi / Rose / Lavender / Hojicha / Original MT;Hot;Large;See tea jar;;;16 oz;;;4;;1,3;;;f4ede3;f4ede3
+Genmaichi / Rose / Lavender / Hojicha / Original MT;Cold;Small;See tea jar;;;8 oz;;;3;;1,5;;1 flat;f4ede3;f4ede3
+Genmaichi / Rose / Lavender / Hojicha / Original MT;Cold;Large;See tea jar;;;10 oz;;;4;;2;;1 full;f4ede3;f4ede3
+Black Sugar MT;Hot;Small;13,5 g;;;12 oz;;;3;;0,5 black;0,2 cane;;301b0a;f4ede3
+Black Sugar MT;Hot;Large;13,5 g;;;16 oz;;;4;;0,6 black;0,3 cane;;301b0a;f4ede3
+Black Sugar MT;Cold;Small;13,5 g;;;8 oz;;;3;;0,6 black;0,5 cane;1 flat;301b0a;f4ede3
+Black Sugar MT;Cold;Large;13,5 g;;;10 oz;;;4;;0,7 black;0,7 cane;1 full;301b0a;f4ede3
+Oolong / Iron Budda MT;Hot;Small;13,5 g;;;12 oz;;;2;;1;;;353b22;f4ede3
+Oolong / Iron Budda MT;Hot;Large;13,5 g;;;16 oz;;;3;;1,3;;;353b22;f4ede3
+Oolong / Iron Budda MT;Cold;Small;13,5 g;;;8 oz;;;2;;1,5;;1 flat;353b22;f4ede3
+Oolong / Iron Budda MT;Cold;Large;13,5 g;;;10 oz;;;3;;2;;1 full;353b22;f4ede3
+House Special MT;Hot;Small;13,5 g;;;12 oz;;;3;;3 honey;;;31601;f4ede3
+House Special MT;Hot;Large;13,5 g;;;16 oz;;;4;;4 honey;;;31601;f4ede3
+House Special MT;Cold;Small;13,5 g;;;8 oz;;;3;;4 honey;;1 flat;31601;f4ede3
+House Special MT;Cold;Large;13,5 g;;;10 oz;;;4;;5 honey;;1 full;31601;f4ede3
+Black Sugar Fresh Milk;Hot;Small;;;;;fill steamed;;;;0,5 black;0,2 cane;0,5 scoop;301b0a;f4ede3
+Black Sugar Fresh Milk;Hot;Large;;;;;fill cold;;;;0,8 black;0,5 cane;0,5 scoop;301b0a;f4ede3
+Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Hot;Small;;;;;;11 oz hot;Check lid;;Check lid;;1 ice;5f417d;ffbf28
+Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Hot;Large;;;;;;15 oz hot;Check lid;;Check lid;;2 ice;5f417d;ffbf28
+Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Cold;Small;;;;;;6 oz hot;Check lid;;Check lid;;1 flat;5f417d;ffbf28
+Taro / VC / Strawberry / Mango / Watermelon / BC / Coconut / HD / SMT;Cold;Large;;;;;;8 oz hot;Check lid;;Check lid;;1 full;5f417d;ffbf28
+Ferrero Rocher;Blended;Small;;;3 rocher + 1 milk choc + 8 circle choc syrup;;3 oz;;;1 rocher;1,25;;1 flat;3f2816;dfa162
+Ferrero Rocher;Blended;Large;;;3 rocher + 1 milk choc + 10 circle choc syrup;;4 oz;;;1 rocher;1,5;;1 full;3f2816;dfa162
+Orange Green Tea;Cold;Large;13,5 g;;5 orange peel;10 oz;;;;2 orange slices;1 or 1,5 sugar;0 or 0,5 lemon;1 full;ff8a0e;52641d
+Signature Green Tea;Cold;Large;13,5 g;;2 orange peel;10 oz;;;;2 orange slices;0,2 pass 0,5 ??;;1 full;52641d;
+Rose Black Tea;Hot;Small;2,5 g black;2,5 g rose;;12 oz;;;;;0,5;;;cd7f7f;31601
+Rose Black Tea;Hot;Large;3,5 g black;3,5 g rose;;16 oz;;;;;1;;;cd7f7f;31601
+Rose Black Tea;Cold;Small;4 g black;4 g rose;;8 oz;;;;;1,5;;1 flat;cd7f7f;31601
+Rose Black Tea;Cold;Large;5 g black;5 g rose;;10 oz;;;;;2;;1 full;cd7f7f;31601
+Black Tea Float;Cold;Small;10 g;;3 ice cream;8 oz;;;;;3 honey;;1 flat;31601;f8d687
+Black Tea Float;Cold;Large;10 g;;4 ice cream;10 oz;;;;;4 honey;;1 full;31601;f8d687
+Matcha Float;Cold;Small;0,8 scoop;;3 ice cream;;;8 oz hot;;;1,5;;1 flat;1a871a;f8d687
+Matcha Float;Cold;Large;1 scoop;;4 ice cream;;;10 oz hot;;;2;;1 full;1a871a;f8d687
+HK Lemon Black Tea;Hot;Small;13,5 g;;1 lemon;12 oz;;;;;0,5 cane;1 honey;;31601;cabe79
+HK Lemon Black Tea;Hot;Large;13,5 g;;1,5 lemon;16 oz;;;;;0,5 cane;1,5 honey;;31601;cabe79
+HK Lemon Black Tea;Cold;Small;13,5 g;;1 lemon;6 oz;;2 oz;;;0,5 cane;3 honey;1 flat;31601;cabe79
+HK Lemon Black Tea;Cold;Large;13,5 g;;1,5 lemon;8 oz;;2 oz;;;0,8 cane;4 honey;1 full;31601;cabe79
