@@ -36,6 +36,9 @@ const convertData = () => {
     for (let od of drinkData) {
         let d = new Drink();
         d.name = od.name;
+        d.colour1 = od.colour1;
+        d.colour2 = od.colour2;
+        
         d.varieties = [];
 
         for (let ov of od.varieties) {

@@ -6,7 +6,10 @@ PATH_DATA = Path(__file__).parent.resolve()
 PATH_IN = PATH_DATA / 'main.csv'
 PATH_OUT = PATH_DATA / 'drinkData.js'
 
-
+RAISE_KEYS = [
+    'name',
+    'colour1', 'colour2'
+]
 
 KEYS = [
     'name', 'temp', 'size',
@@ -15,7 +18,7 @@ KEYS = [
     'creamer', 'decoration',
     'sugar1', 'sugar2',
     'ice',
-    'colour1','colour2'
+    'colour1', 'colour2'
     
     # 'Type', 'Temp', 'Size',
     # 'Flavour - Tea 1', 'Flavour - Tea 2', 'Flavour - Other',
@@ -40,7 +43,6 @@ with open(PATH_IN, 'r') as f:
     for row in reader:
         obj_variety = {k: v for (k, v) in zip(KEYS, row)}
         drink = obj_variety['name']
-        del obj_variety['name']
 
         if last_drink and (last_drink != drink):
             data.append(obj_drink)
@@ -48,7 +50,11 @@ with open(PATH_IN, 'r') as f:
 
         # First one...
         if not obj_drink:
-            obj_drink = {'name': drink, 'varieties': []}
+            obj_drink = {'varieties': []}
+
+            for key in RAISE_KEYS:
+                obj_drink[key] = obj_variety[key]
+                del obj_variety[key]
 
         obj_drink['varieties'].append(obj_variety)
         last_drink = drink
