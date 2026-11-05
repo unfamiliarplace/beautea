@@ -1,6 +1,8 @@
 class App {
     drinks;
     stage;
+    substage;
+    drink;
 }
 
 class Drink {
@@ -90,6 +92,12 @@ const createScenes = () => {
     app.stage.createScene("game", "#gamePanel");
     app.stage.createScene("help", "#helpPanel", "#btnHelp");
     app.stage.setDefault("game");
+
+    app.substage = new Stage();
+    app.substage.createScene("choose", "#drinksPanel");
+    app.substage.createScene("options", "#drinkOptionsPanel");
+    app.substage.createScene("info", "#drinkInfoPanel");
+    app.substage.setDefault("choose");
 }
 
 const populateDrinksPanel = () => {
@@ -99,11 +107,45 @@ const populateDrinksPanel = () => {
     } 
 }
 
+const bindDrinks = () => {
+    for (let d of app.drinks) {
+        $(`#d-card-${d.getID()}`).click(() => {
+            showDrinkOptions(d);
+        });
+    }
+}
+
+const bindGeneral = () => {
+    $('#btnOptionsBack').click(() => {
+        app.drink = null;
+        app.substage.show('choose');
+        $('#drinkOptionsDrink').html("");
+    });
+
+    $('#btnInfoBack').click(() => {
+        app.substage.show('options');
+    });
+}
+
+const showDrinkOptions = (drink) => {
+    if (app.substage.showing("options")) {
+        return;
+    }
+
+    app.drink = drink;
+    app.substage.show('options');
+    $('#drinkOptionsDrink').html(drink.formatCard());
+}
+
 const init = () => {
     app = new App();
+    app.drink = null;
+
     createScenes();
     convertData();
     populateDrinksPanel();
+    bindDrinks();
+    bindGeneral();
 }
 
 let app;
