@@ -9,8 +9,25 @@ class Drink {
     colour1;
     colour2;
 
+    getID = () => {
+        return this.name.toLowerCase().replace(/[^a-z]/gm,"");
+    }
+
     formatCard = () => {
-        
+        let style = "";
+
+        if (! this.colour2) {
+            // 1 colours
+            style = `background-color: #${this.colour1}`;
+
+        } else {
+            // 2 colours
+            style = `background-image: linear-gradient(135deg, #${this.colour1}, #${this.colour2})`;
+        }
+
+        let title = `<div class="dCardTitle">${this.name}</div>`;
+
+        return `<div id="d-card-${this.getID()}" class="dCardWrap flexCol" style="${style}">${title}</div>`;
     }
 }
 
@@ -36,8 +53,10 @@ const convertData = () => {
     for (let od of drinkData) {
         let d = new Drink();
         d.name = od.name;
-        d.colour1 = od.colour1;
-        d.colour2 = od.colour2;
+
+        // csv handling may result in non-significant 0 stripping...
+        d.colour1 = (! od.colour1) ? "" : String(od.colour1).padStart(6, '0');
+        d.colour2 = (! od.colour2) ? "" : String(od.colour2).padStart(6, '0');
         
         d.varieties = [];
 
@@ -62,6 +81,8 @@ const convertData = () => {
 
         app.drinks.push(d);
     }
+
+    app.drinks.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 const createScenes = () => {
@@ -72,7 +93,10 @@ const createScenes = () => {
 }
 
 const populateDrinksPanel = () => {
-
+    let dp = $('#drinksPanel')
+    for (let d of app.drinks) {
+        dp.append(d.formatCard());
+    } 
 }
 
 const init = () => {

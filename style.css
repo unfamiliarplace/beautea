@@ -243,3 +243,32 @@ input[disabled=""] {
   color: #222222;
   font-style: italic;
 }
+
+/* This app */
+
+#gamePanel {
+  overflow-y: scroll;
+}
+
+#drinksPanel {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px 30px 20px;
+
+}
+
+.dCardWrap {
+  justify-content: center;
+  width: 100px;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.dCardTitle {
+  text-align: center;
+  text-shadow: #000000 0 0 1.5px;
+}
