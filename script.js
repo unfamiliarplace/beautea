@@ -152,7 +152,7 @@ const bindDrinks = () => {
 
 const bindGeneral = () => {
     $('#btnOptionsBack').click(() => {
-        app.drink = null;
+        app.resetDrink();
         app.substage.show('choose');
         $('#drinkOptionsDrink').html("");
         $('#drinkInfoDrink').html("");
