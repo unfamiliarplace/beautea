@@ -2,7 +2,11 @@ class App {
     drinks;
     stage;
     substage;
+
+    // currently selected
     drink;
+    size;
+    temp;
 }
 
 class Drink {
@@ -92,12 +96,14 @@ const createScenes = () => {
     app.stage.createScene("game", "#gamePanel");
     app.stage.createScene("help", "#helpPanel", "#btnHelp");
     app.stage.setDefault("game");
+    app.stage.show("game");
 
     app.substage = new Stage();
     app.substage.createScene("choose", "#drinksPanel");
     app.substage.createScene("options", "#drinkOptionsPanel");
     app.substage.createScene("info", "#drinkInfoPanel");
     app.substage.setDefault("choose");
+    app.substage.show("choose");
 }
 
 const populateDrinksPanel = () => {
@@ -120,20 +126,27 @@ const bindGeneral = () => {
         app.drink = null;
         app.substage.show('choose');
         $('#drinkOptionsDrink').html("");
+        $('#drinkInfoDrink').html("");
     });
 
     $('#btnInfoBack').click(() => {
         app.substage.show('options');
     });
+
+    $('#btnOptionsForward').click(() => {
+        app.substage.show('info');
+    });
 }
 
 const showDrinkOptions = (drink) => {
-    if (app.substage.showing("options")) {
+    if (! app.substage.showing("choose")) {
+        console.log(app.substage.active);
         return;
     }
 
     app.drink = drink;
     app.substage.show('options');
+    $('#drinkInfoDrink').html(drink.formatCard());
     $('#drinkOptionsDrink').html(drink.formatCard());
 }
 

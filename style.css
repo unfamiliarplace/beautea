@@ -254,7 +254,6 @@ input[disabled=""] {
   flex-wrap: wrap;
   gap: 20px;
   padding: 0 20px 30px 20px;
-
 }
 
 .dCardWrap {
@@ -271,4 +270,37 @@ input[disabled=""] {
 .dCardTitle {
   text-align: center;
   text-shadow: #000000 0 0 1.5px;
+}
+
+#drinkOptionsPanel .dCardWrap, #drinkInfoPanel .dCardWrap {
+  cursor: auto;
+}
+
+.drinkNav button {
+  width: 100px;
+  height: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  background: none;
+  color: #ffffff;
+  border: 1px solid ffffff;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#drinkOptionsPanel, #drinkInfoPanel {
+  width: 100%;
+  padding: 40px;
+}
+
+.drinkOptionsRow {
+  justify-content: space-between;
+}
+
+#drinkOptionsNav2 {
+  justify-content: center;
+}
+
+#drinkOptionsForward, #drinkOptionsForward button {
+  width: 100%;
 }
