@@ -7,6 +7,20 @@ class App {
     drink;
     size;
     temp;
+
+    resetDrink = () => {
+        this.drink = null;
+        this.temp = null;
+        this.size = null;
+    }
+
+    drinkChosen = () => {
+        return [
+            this.drink !== null,
+            (this.temp !== null) || (! this.drink.tempVaries()),
+            this.size !== null
+        ].every(flag => flag)
+    }
 }
 
 class Drink {
@@ -17,6 +31,21 @@ class Drink {
 
     getID = () => {
         return this.name.toLowerCase().replace(/[^a-z]/gm,"");
+    }
+
+    tempVaries = () => {
+        let temp = null;
+        for (let v of this.varieties) {
+            if (! temp) {
+                temp = v.temp;
+            } else {
+                if (temp !== v.temp) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
     formatCard = () => {
@@ -136,23 +165,41 @@ const bindGeneral = () => {
     $('#btnOptionsForward').click(() => {
         app.substage.show('info');
     });
+
+    $('.btnSize').click(e => {
+        app.size = $(e.target).data('value');
+        updateForwardButton();
+    });
+
+    $('.btnTemp').click(e => {
+        app.temp = $(e.target).data('value');
+        updateForwardButton();
+    });
 }
 
 const showDrinkOptions = (drink) => {
     if (! app.substage.showing("choose")) {
-        console.log(app.substage.active);
         return;
     }
 
+    app.resetDrink();
     app.drink = drink;
+
     app.substage.show('options');
     $('#drinkInfoDrink').html(drink.formatCard());
     $('#drinkOptionsDrink').html(drink.formatCard());
+
+    $('.btnTemp').prop('disabled', ! drink.tempVaries());
+    updateForwardButton();
+}
+
+const updateForwardButton = () => {
+    $('#btnOptionsForward').prop('disabled', ! app.drinkChosen());
 }
 
 const init = () => {
     app = new App();
-    app.drink = null;
+    app.resetDrink();
 
     createScenes();
     convertData();
