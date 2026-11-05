@@ -17,7 +17,7 @@ class App {
     drinkChosen = () => {
         return [
             this.drink !== null,
-            (this.temp !== null) || (! this.drink.tempVaries()),
+            this.temp !== null,
             this.size !== null
         ].every(flag => flag)
     }
@@ -33,19 +33,17 @@ class Drink {
         return this.name.toLowerCase().replace(/[^a-z]/gm,"");
     }
 
-    tempVaries = () => {
-        let temp = null;
+    getTemps = () => {
+        let temps = new Set();
         for (let v of this.varieties) {
-            if (! temp) {
-                temp = v.temp;
-            } else {
-                if (temp !== v.temp) {
-                    return true;
-                }
-            }
+            temps.add(v.temp);
         }
 
-        return false;
+        return temps;
+    }
+
+    tempVaries = () => {
+        return this.getTemps().size > 1;
     }
 
     formatCard = () => {
@@ -97,8 +95,8 @@ const convertData = () => {
 
         for (let ov of od.varieties) {
             let v = new DrinkVariety();
-            v.size = ov.size;
-            v.temp = ov.temp;
+            v.size = ov.size.toLowerCase();
+            v.temp = ov.temp.toLowerCase();
             v.flavourTea1 = ov.flavourTea1;
             v.flavourTea2 = ov.flavourTea2;
             v.flavourOther = ov.flavourOther;
@@ -145,39 +143,58 @@ const populateDrinksPanel = () => {
 const bindDrinks = () => {
     for (let d of app.drinks) {
         $(`#d-card-${d.getID()}`).click(() => {
-            showDrinkOptions(d);
+            showDrinkInfo(d);
         });
     }
 }
 
 const bindGeneral = () => {
-    $('#btnOptionsBack').click(() => {
+    $('#btnInfoBack').click(() => {
         app.resetDrink();
         app.substage.show('choose');
-        $('#drinkOptionsDrink').html("");
         $('#drinkInfoDrink').html("");
-    });
-
-    $('#btnInfoBack').click(() => {
-        app.substage.show('options');
-    });
-
-    $('#btnOptionsForward').click(() => {
-        app.substage.show('info');
+        unselectSize();
+        unselectTemp();
     });
 
     $('.btnSize').click(e => {
-        app.size = $(e.target).data('value');
-        updateForwardButton();
+        unselectSize();
+        selectSize($(e.target).data('value'));
+        updateDrinkInfo();
     });
 
     $('.btnTemp').click(e => {
-        app.temp = $(e.target).data('value');
-        updateForwardButton();
+        unselectTemp();
+        selectTemp($(e.target).data('value'));
+        updateDrinkInfo();
     });
 }
 
-const showDrinkOptions = (drink) => {
+const unselectTemp = () => {
+    app.temp = null;
+    $('.btnTemp').removeClass('selected');
+}
+
+const unselectSize = () => {
+    app.size = null;
+    $('.btnSize').removeClass('selected');
+}
+
+const selectTemp = temp => {
+    app.temp = temp;
+    let btn = $(`.btnTemp[data-value="${app.temp}"]`);
+    btn.addClass('selected');
+    btn.prop('disabled', false);
+}
+
+const selectSize = size => {
+    app.size = size;
+    let btn = $(`.btnSize[data-value="${app.size}"]`);
+    btn.addClass('selected');
+    btn.prop('disabled', false);
+}
+
+const showDrinkInfo = (drink) => {
     if (! app.substage.showing("choose")) {
         return;
     }
@@ -185,16 +202,25 @@ const showDrinkOptions = (drink) => {
     app.resetDrink();
     app.drink = drink;
 
-    app.substage.show('options');
     $('#drinkInfoDrink').html(drink.formatCard());
-    $('#drinkOptionsDrink').html(drink.formatCard());
 
-    $('.btnTemp').prop('disabled', ! drink.tempVaries());
-    updateForwardButton();
+    unselectSize();
+    unselectTemp();
+    $('.btnTemp').prop('disabled', true);
+
+    if (drink.tempVaries()) {
+        $('.btnTemp').prop('disabled', false);
+
+    } else {
+        selectTemp(Array.from(drink.getTemps())[0]);
+    }
+
+    updateDrinkInfo();
+    app.substage.show('info');
 }
 
-const updateForwardButton = () => {
-    $('#btnOptionsForward').prop('disabled', ! app.drinkChosen());
+const updateDrinkInfo = () => {
+    console.log('hi');
 }
 
 const init = () => {
